@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom"
 import { Star } from "lucide-react"
 import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from "@/components/ui/pagination"
 import { Button } from "@/components/ui/button"
+import { ModeToggle } from "@/components/mode-toggle"
 
 interface VideoProps {
     id: number;
@@ -93,6 +94,9 @@ export default () => {
                         value={inputName}
                         onChange={(e) => setInputName(e.target.value)}
                     />
+                    <div className="w-max">
+                        <ModeToggle />
+                    </div>
                     <Button
                         onClick={() => getData()}
                     >
