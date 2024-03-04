@@ -77,18 +77,18 @@
 
 @font-face {
   font-family: 'Hind';
-  src: url(../../public/fonts/Hind-Regular.ttf);
+  src: url(/public/fonts/Hind-Regular.ttf);
 }
 
 @font-face {
   font-family: 'Hind';
-  src: url(../../public/fonts/Hind-SemiBold.ttf);
+  src: url(/public/fonts/Hind-SemiBold.ttf);
   font-weight: 600
 }
 
 @font-face {
   font-family: 'Hind';
-  src: url(../../public/fonts/Hind-Bold.ttf);
+  src: url(/public/fonts/Hind-Bold.ttf);
   font-weight: 700;
 }
 
